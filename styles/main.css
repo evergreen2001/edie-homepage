@@ -204,4 +204,8 @@ input[type="email"] {
   background-color: #2D9CDB;
   color: #fff;
 }
+
+.roundedx img {
+  border-radius: 50px;
+}
 /*# sourceMappingURL=main.css.map */
