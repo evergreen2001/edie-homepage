@@ -54,11 +54,7 @@ section {
 }
 
 .hero-img img {
-  position: absolute;
   width: 1332px;
-  height: 354px;
-  left: 52px;
-  top: 420px;
 }
 
 .pxx {
@@ -78,6 +74,21 @@ section {
 
 .textx {
   font-size: 14px;
+  color: #4F4F4F;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.heading-work {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* Gray 1 */
+  color: #333333;
 }
 
 .input-group-text {
@@ -207,5 +218,40 @@ input[type="email"] {
 
 .roundedx img {
   border-radius: 50px;
+}
+
+footer {
+  padding-top: 50px;
+  width: 100%;
+  height: 385px;
+  background: #100E1D;
+}
+
+footer p {
+  font-family: Poppins ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* or 36px */
+  color: #FFFFFF;
+}
+
+footer img {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pxx {
+    padding-left: 1rem !important;
+    padding-bottom: 1rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
