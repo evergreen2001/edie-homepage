@@ -350,4 +350,9 @@ footer img {
 ::plcaehoder {
   font-size: 14px;
 }
+
+.team-img img {
+  border-radius: 23px;
+  width: 80%;
+}
 /*# sourceMappingURL=main.css.map */
