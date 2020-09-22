@@ -8,7 +8,7 @@
 }
 
 .navx .navbar-brand {
-  font-family: Heebo ,sans-serif;
+  font-family: Heebo, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
@@ -46,7 +46,7 @@ section {
   font-size: 18px;
   line-height: 27px;
   /* identical to box height */
-  color: #2D9CDB;
+  color: #2d9cdb;
 }
 
 .hero-img {
@@ -63,18 +63,18 @@ section {
 }
 
 .text {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
   /* Gray 2 */
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
 
 .textx {
   font-size: 14px;
-  color: #4F4F4F;
+  color: #4f4f4f;
   font-family: Poppins, sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -92,8 +92,8 @@ section {
 }
 
 .input-group-text {
-  background-color: #2D9CDB;
-  font-family: Poppins ,sans-serif;
+  background-color: #2d9cdb;
+  font-family: Poppins, sans-serif;
   border-radius: 12px;
   font-style: normal;
   font-weight: 500;
@@ -103,11 +103,11 @@ section {
   border-top-left-radius: 12px !important;
   border-bottom-left-radius: 12px !important;
   /* Gray 6 */
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 input[type="email"] {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   border-radius: 12px;
   font-size: 18px;
   line-height: 27px;
@@ -116,7 +116,7 @@ input[type="email"] {
 }
 
 .headingx {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -126,7 +126,7 @@ input[type="email"] {
 }
 
 .services h4 {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -136,17 +136,17 @@ input[type="email"] {
 }
 
 .services p {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   /* Gray 2 */
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
 
 .services:hover {
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
           box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
   border-radius: 24px;
@@ -157,16 +157,16 @@ input[type="email"] {
   height: 67px;
   left: 200px;
   top: 1661px;
-  background: #2D9CDB;
+  background: #2d9cdb;
   border-radius: 16px;
 }
 
 .icon-green {
-  background-color: #27AE60;
+  background-color: #27ae60;
 }
 
 .icon-red {
-  background-color: #EB5757;
+  background-color: #eb5757;
 }
 
 .card {
@@ -176,7 +176,7 @@ input[type="email"] {
 }
 
 .card h4 {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -186,13 +186,13 @@ input[type="email"] {
 }
 
 .card p {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   /* Gray 2 */
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
 
 .card .btnx {
@@ -200,19 +200,19 @@ input[type="email"] {
   height: 42px;
   left: 198px;
   top: 1949px;
-  background: #E0E0E0;
+  background: #e0e0e0;
   border-radius: 12px;
 }
 
 .card:hover {
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
           box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
   border-radius: 24px;
 }
 
 .card:hover .btnx {
-  background-color: #2D9CDB;
+  background-color: #2d9cdb;
   color: #fff;
 }
 
@@ -223,17 +223,16 @@ input[type="email"] {
 footer {
   padding-top: 50px;
   width: 100%;
-  height: 385px;
-  background: #100E1D;
+  background: #100e1d;
 }
 
 footer p {
-  font-family: Poppins ,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   /* or 36px */
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 footer img {
@@ -253,5 +252,102 @@ footer img {
     padding-left: 1rem !important;
     padding-bottom: 1rem;
   }
+}
+
+.searchbox-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-top: 8%;
+}
+
+.searchbox-wrap input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+
+.searchbox-wrap input:active {
+  outline: none;
+  border-color: none;
+  border: none;
+}
+
+.searchbox-wrap input:hover {
+  outline: none;
+  border-color: none;
+  border: none;
+}
+
+.searchbox-wrap input:focus {
+  outline: none;
+  border-color: none;
+  border: none;
+}
+
+.searchbox-wrap button {
+  padding-right: 5px;
+  background-color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+          box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+  border: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.searchbox-wrap button:active {
+  outline: none;
+  border-color: none;
+}
+
+.searchbox-wrap button:hover {
+  outline: none;
+  border-color: none;
+}
+
+.searchbox-wrap button:focus {
+  outline: none;
+  border-color: none;
+  border: none;
+}
+
+.searchbox-wrap button span {
+  margin-left: 50px;
+  padding: 12px 18px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  background-color: #2d9cdb;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+
+.searchbox-wrap button span:active {
+  outline: none;
+  border-color: none;
+}
+
+.searchbox-wrap button span:hover {
+  background-color: rgba(45, 155, 219, 0.842);
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
+}
+
+::plcaehoder {
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
