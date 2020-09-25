@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Poppins, sans-serif;
+
 }
 
 .navx {
@@ -183,6 +185,17 @@ input[type="email"] {
 
   background: #2d9cdb;
   border-radius: 16px;
+  display: flex;
+  
+  i{
+    color:white;
+    text-align: center;
+    margin: 20px auto;
+    align-items: center;
+    font-size:30px
+
+    // padding:25px 20px;
+  }
 }
 
 .icon-green {
